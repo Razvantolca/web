@@ -1,0 +1,392 @@
+body{
+    background-color:rgb(177, 157, 178);
+    padding:0px;
+}
+
+.navdedal{
+    height: 80px;
+    position: relative;
+    background-color: #fff;
+    float: left;
+    width: 100%;
+}
+
+.prt1{
+    width: 100%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    line-height: 80px;
+    z-index: 100;
+}
+
+.prt1_container{
+    margin-left: 30px;                                                                                                                                                                   
+    z-index: 100;
+    cursor: pointer;
+}
+
+.prt1_container h2{
+    color: #7c7c7c;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.prt1_container h2 span{
+    color: #0590ec;
+    font-weight: 700;
+}
+
+.links{
+    margin-right: 30px;                                                                                                                                                                   
+}
+
+.links .link{
+    display: inline-block;
+}
+
+.links .link a{
+    text-decoration: none;
+    color: #7c7c7c;         
+    font-size: 20px;
+    margin: 0 20px;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.links .link a:hover{
+    color: #000;
+}
+
+
+.pres{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 80%;
+    height: 450px;
+    float: left;
+    position: relative;
+}
+
+#tecnologia{
+    width: 80%;
+    height: 400px;
+    margin-left: 150px;
+    float:left;
+    position:absolute;
+}
+
+.presen{
+    margin-top: 5px;
+    margin: 0 auto;
+    width: 80%;
+    margin-left: 150px;
+    height: auto;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;                             
+    align-items: center;
+    justify-content: center;
+}
+
+.prestext{
+    width: 80%;
+    float: left;
+    position: relative;
+    z-index: 10;
+    color:rgb(50, 40, 40);
+}
+
+
+.mapa{
+    width: 80%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 130px;
+    float: left;
+    position:relative;
+ }
+
+
+
+ .fin{
+    width: 20%;
+    height: 180px;
+    margin-top: 60px;
+    float: left;
+    position: relative;
+ }
+
+ .tfin{
+    width: 100%;
+    float: left;
+    position: relative;
+    color:rgb(15, 15, 15);
+}
+
+.mfin{
+    width: 45%;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    float: left;
+
+}
+
+.fot{
+    width: 30%;
+    height: 150px;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+/*************************************************/
+/******SAMSUNG***************/
+
+.inicitext{
+    width: 50%;
+    margin-left: 300px;
+    float: left;
+    position: relative;
+}
+
+.prestit{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#ps{
+    width:300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #bs{
+    width:300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #alts{
+    width:300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #cameras{
+    width:250px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #conectors{
+    width:300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #cfrontals{
+    width:300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+
+ p{
+    margin-top: 15px;
+    width: 180px;
+    height: auto;
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+}
+
+.samsung .p1 p:hover{
+    color: aqua;
+}
+
+
+
+/****************************************************/
+/********IPHONE*************************************/
+
+.movils{
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;                             
+    align-items: center;
+    justify-content: center;
+}
+
+.p1{
+    margin-top: 15px;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    float: left;
+    position: relative;
+}
+
+#imatge1{
+    width:250px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #bat{
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+
+
+#altaveu{
+    width:300px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #camera{
+    width:250px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #conector{
+    width:250px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ #cfrontal{
+    width:250px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+ }
+
+p{
+    margin-top: 15px;
+    width: 180px;
+    height: auto;
+    font-size: 20px;
+    margin-left: 15px;
+    position: relative;
+    float: left;
+}
+
+.iphone .p1 p:hover{
+    color: aqua;
+}
+
+ /*****************REGISTRAR*****************************************/
+
+
+.registrar{
+    width: 20%;
+    height: 400px;
+    float:left ;
+    position: relative;
+    margin-left: 500px;
+    border: 1px solid black;
+
+}
+
+.reg{
+    width: 20%;
+    height: 100px;
+    margin-left: 40px; 
+
+
+}
+.regfin{
+    color:rgb(50, 40, 40);
+}
+
+
+
+#iname{
+    width: 150px;
+    margin-left: 20px;
+    height: 20px;
+    margin-top: 5px
+}
+
+#cognom{
+    width: 150px;
+    margin-left: 20px;
+    height: 20px;
+    margin-top: 5px
+}
+#imail{
+    width: 150px;
+    margin-left: 35px;
+    height: 20px;
+    margin-top: 5px
+}
+#ipass{
+    width: 150px;
+    margin-left: 10px;
+    height: 20px;
+    margin-top: 5px
+}
+
+label{
+    margin-left: 15px;
+}
+#env{
+    margin-left: 30px;
+    margin-top: 30px
+
+}
